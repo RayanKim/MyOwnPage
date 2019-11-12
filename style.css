@@ -1,10 +1,18 @@
+html,
+body {
+  widows: 100%;
+}
 .childbox {
   padding: 6px;
   border-left: 1 px solid;
   border-bottom: 1px solid;
   margin: 5px;
 }
+#firstimg {
+  width: 100vw;
+}
 #hello {
+  color: black;
   font-size: 7vw;
   display: flex;
   justify-content: center;
