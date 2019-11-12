@@ -1,0 +1,19 @@
+.childbox {
+  padding: 6px;
+  border-left: 1 px solid;
+  border-bottom: 1px solid;
+  margin: 5px;
+}
+#hello {
+  font-size: 7vw;
+  display: flex;
+  justify-content: center;
+}
+
+#topbox {
+  font-size: 3vw;
+  display: flex;
+  justify-content: center;
+  position: sticky;
+  top: 0;
+}
