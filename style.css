@@ -3,13 +3,17 @@ body {
   border: 0px;
   margin: 0px;
 }
+a {
+  text-decoration: none;
+  color: whitesmoke;
+}
 .childbox {
-  padding: 6px;
-  border-left: 1 px solid;
+  padding: 3vw;
   border-bottom: 1px solid;
   margin: 5px;
 }
 .parallax {
+  top: 0;
   background-image: url("images/yeosulee.jpeg");
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -27,17 +31,9 @@ body {
   position: absolute;
   top: 10vw;
 }
-#name {
-  color: grey;
-  font-size: 6vw;
-  display: flex;
-  justify-content: center;
-  position: absolute;
-  top: 50vw;
-  left: 50vw;
-}
 
 #topbox {
+  background-color: rgba(0, 0, 0, 0.838);
   font-size: 3vw;
   display: flex;
   justify-content: center;
