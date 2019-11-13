@@ -1,6 +1,7 @@
 html,
 body {
-  widows: 100%;
+  border: 0px;
+  margin: 0px;
 }
 .childbox {
   padding: 6px;
@@ -8,14 +9,32 @@ body {
   border-bottom: 1px solid;
   margin: 5px;
 }
-#firstimg {
+.parallax {
+  background-image: url("images/yeosulee.jpeg");
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   width: 100vw;
+  height: 55vh;
 }
 #hello {
-  color: black;
-  font-size: 7vw;
+  color: whitesmoke;
+  font-size: 10vw;
   display: flex;
   justify-content: center;
+  position: absolute;
+  top: 10vw;
+}
+#name {
+  color: grey;
+  font-size: 6vw;
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  top: 50vw;
+  left: 50vw;
 }
 
 #topbox {
